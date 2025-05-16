@@ -80,7 +80,7 @@ export default function ProfilePage() {
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                   <div>
                     <h1 className="text-2xl font-bold flex items-center gap-2">
-                      John Developer
+                      Khalid
                       <Badge className="bg-emerald-500 hover:bg-emerald-600 ml-2 flex items-center gap-1">
                         <Award className="h-3 w-3" />
                         Top Rated
