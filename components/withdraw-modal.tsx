@@ -65,12 +65,12 @@ export default function WithdrawModal({
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="remaining">Remaining in Fiverr</Label>
+              <Label htmlFor="remaining">Remaining in Fiverr (In USA)</Label>
               <Input id="remaining" value={formattedBalance} disabled className="bg-gray-50 font-medium" />
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="amount">Amount to Withdraw</Label>
+              <Label htmlFor="amount">Amount to Withdraw (In USA)</Label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                   <span className="text-gray-500">{currency === "USD" ? "$" : "₨"}</span>
@@ -94,7 +94,7 @@ export default function WithdrawModal({
             <div className="pt-4">
               <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
                 <Button type="submit" className="w-full bg-emerald-600 hover:bg-emerald-700">
-                  Withdraw Funds
+                  Withdraw 
                 </Button>
               </motion.div>
             </div>
